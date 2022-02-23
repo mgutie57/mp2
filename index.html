@@ -5,34 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-    <title>Main Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
-    <style>
-        body{
-            background-color: rgb(156, 154, 154);
-        }
+    <title>Main Page Mini Project 2</title>
 
-        img {  
-            max-width: 50%;  
-            height: auto; 
+<style>
 
-            padding: 5px;
-            border: 5px #5a7180;
-            border-style: groove;
-            background-color: rgb(185, 185, 185);
-}  
-    </style>
+img{
+    margin-left: 0%;
+    align-self:center;
+    max-width: 40%;  
+    max-height: auto; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #364552;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgb(136, 136, 136);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+</style>
+
 </head>
 
 <body>
 
     <h2> cats living life 😭</h2>
 
-    <a href = "pages/page1.html" > go to Page 1 </a>
+    <img src = "images/cateyes1.jpg">
 
-    <p> this is filler text for a praragraph</p>
+    <p> Choose an option from each page below for a surprise! you will either see a cat... or a cat with friends.</p>
 
-    <img src = "images/ind.jpg">
+    <div class="grid-container">
+        <div class="grid-item"> First <br> <a href = "pages/page1.html" > Option 1 </a> <br> <a href = "pages/page2.html" > Option 2 </a> </div> 
+                
+          <div class="grid-item">Second <br> <a href = "pages/page3.html" > Option 1 </a> <br> <a href = "pages/page4.html" > Option 2 </a> </div>
+        
+         <div class="grid-item">Third<br> <a href = "pages/page5.html" > Option 1 </a> <br> <a href = "pages/page6.html" > Option 2 </a> </div>
+        
+      </div>
+      
 
 </body>
 </html>

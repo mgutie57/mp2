@@ -1,0 +1,31 @@
+img { 
+    align-items:center;
+    max-width: 40%;  
+    max-height: auto; 
+}  
+
+
+h2{
+    font-size: 200%;
+    color:rgb(211, 232, 250);
+}
+
+p{
+    font-size: 100%;
+    color:rgba(18, 32, 156, 0.9)
+    }
+
+
+body{
+    background-color: rgb(156, 154, 154);
+    margin-left: 10%;
+
+    }
+
+a:link {
+    color: rgb(0, 170, 182);
+    }
+
+a:visited {
+    color: rgb(0, 105, 88);
+    }
