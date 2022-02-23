@@ -6,11 +6,13 @@ img {
 
 
 h2{
+    font-family: 'Suranna', serif;
     font-size: 200%;
     color:rgb(211, 232, 250);
 }
 
 p{
+    font-family: 'Yuji Syuku', serif;
     font-size: 100%;
     color:rgba(18, 32, 156, 0.9)
     }
@@ -23,9 +25,11 @@ body{
     }
 
 a:link {
-    color: rgb(0, 170, 182);
+    font-family: 'Asar', serif;
+    color: rgb(0, 100, 182);
     }
 
 a:visited {
-    color: rgb(0, 105, 88);
+    font-family: 'Asar', serif;
+    color: rgb(0, 42, 105);
     }
